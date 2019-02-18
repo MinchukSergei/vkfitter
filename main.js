@@ -1,7 +1,7 @@
 if (window.innerWidth < 1920 / 2) {
-	document.getElementById('im_dialogs').style.width = '180px';
-	getElByCl('im-page--dialogs').style.width = '180px';
-	getElByCl('im-page--history').style.marginLeft = '181px';
+	document.getElementById('im_dialogs').style.width = '170px';
+	getElByCl('im-page--dialogs').style.width = '170px';
+	getElByCl('im-page--history').style.marginLeft = '171px';
 	getElByCl('im-page--history').style.width = '410px';
 	getElByCl('im-page--chat-body-abs').style.width = '410px';
 
@@ -46,9 +46,9 @@ if (window.innerWidth < 1920 / 2) {
 			f.insertRule("#page_body { font-size: 17px !important; }", 0);
 			f.insertRule(".im-replied--text { font: 17px/18px -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important; }", 0);
 
-			f.insertRule(".body_im .side_bar { margin-left: -90px !important; }", 0);
-			f.insertRule(".side_bar_inner { width: 105px !important; }", 0);
-			f.insertRule(".side_bar { width: 105px !important; }", 0);
+			f.insertRule(".body_im .side_bar { margin-left: -55px !important; }", 0);
+			f.insertRule(".side_bar_inner { width: 70px !important; }", 0);
+			f.insertRule(".side_bar { width: 70px !important; }", 0);
 
 			f.insertRule(".ads_ad_box4 { display: none !important; }", 0);
 			f.insertRule(".ads_ads_box4 { display: none !important; }", 0);
@@ -62,6 +62,7 @@ if (window.innerWidth < 1920 / 2) {
 			f.insertRule(".im-page .im-page--dialogs-filter.im-page--dialogs-filter_disabled { font-size: 11.5px !important; }", 0);
 			f.insertRule(".im-page .im-page--dialogs-filter { padding: 17px 5px !important; }", 0);
 			f.insertRule(".fakeinput, div[contenteditable=true], input.big_text, input.file, input.search, input.text, input[type=button], input[type=password], input[type=search], input[type=submit], input[type=text], input[type~=email], input[type~=password], input[type~=search], input[type~=text], textarea { font-size: 17px !important; }", 0);
+
 		}
 	}
 }
