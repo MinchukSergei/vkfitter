@@ -62,7 +62,7 @@ if (window.innerWidth < 1920 / 2) {
 			f.insertRule(".im-page .im-page--dialogs-filter.im-page--dialogs-filter_disabled { font-size: 11.5px !important; }", 0);
 			f.insertRule(".im-page .im-page--dialogs-filter { padding: 17px 5px !important; }", 0);
 			f.insertRule(".fakeinput, div[contenteditable=true], input.big_text, input.file, input.search, input.text, input[type=button], input[type=password], input[type=search], input[type=submit], input[type=text], input[type~=email], input[type~=password], input[type~=search], input[type~=text], textarea { font-size: 17px !important; }", 0);
-
+			f.insertRule(".im-page .im-page--dialogs-settings { margin: 14px 10px !important; }", 0);
 		}
 	}
 }
